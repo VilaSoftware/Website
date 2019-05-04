@@ -1,0 +1,119 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#header {
+	width: 100%;
+	height: 75px;
+	background-color: white;
+	border-top: 2px solid #58D68D;
+}
+
+#header #header_inside {
+	width: 1400px;
+	height: 75px;
+	margin: 0 auto;
+}
+
+#header #header_inside #logo {
+	width: 200px;
+	height: 70px; /* sonra sil */
+	margin-top: 2.5px;
+	float: left;
+}
+
+#header #header_inside #logo img {
+	height: 100%;
+}
+
+#header #header_inside #menu {
+	width: 200px;
+	height: 70px;
+	margin-top: 2.5px;
+	float: right;
+}
+
+#header #header_inside #menu table {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#header #header_inside #menu img {
+	height: 50px;
+}
+
+#header #header_inside #menu table tr td a {
+	text-decoration: none;
+	color: black;
+	line-height: 60px;
+}
+
+/*
+ *
+ *
+ *	container
+ *
+ *
+ *
+ * */
+
+
+#container {
+	width: 1400px;
+	height: 1805px;
+	margin: 0 auto;
+}
+
+#container .big_post {
+	width: 1390px;
+	height: 490px;
+	background-color: #58D68D;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#container .mini_post {
+	width: 460px;
+	height: 400px;
+	background-color: #58D68D;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+
+#container .big_post img, #container .mini_post img {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/*
+ *
+ *
+ *
+ *	footer
+ *
+ *
+ *
+ * */
+
+#footer {
+	width: 100%;
+	height: 100px;
+	background-color: #58D68D;
+}
+
+#footer table {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#footer table tr td img {
+	height: 90px;
+}
