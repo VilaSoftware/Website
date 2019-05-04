@@ -64,14 +64,13 @@
 
 #container {
 	width: 1400px;
-	height: 1805px;
 	margin: 0 auto;
 }
 
 #container .big_post {
 	width: 1390px;
 	height: 490px;
-	background-color: #58D68D;
+	background-color: white;
 	float: left;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -87,9 +86,15 @@
 }
 
 #container .big_post img, #container .mini_post img {
-	width: 100%;
-	height: 100%;
 	margin: 0 auto;
+}
+
+#container #latest_posts {
+	width: 1390px;
+	background-color: white;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
 }
 
 /*
@@ -105,6 +110,8 @@
 #footer {
 	width: 100%;
 	height: 100px;
+	float: left;
+	margin-top: 5px;
 	background-color: #58D68D;
 }
 
